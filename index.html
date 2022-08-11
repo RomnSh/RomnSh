@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>ToDo List</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="src/styles.css">
-
   </head>
 <body>
-  <div class="header">ToDo List</div>
-  <div class="red_dot"></div>
-  <div class="main">ToDo List</div>
-    <input class="input_text" type="text" name="New task" value="" placeholder="New Task">
+  <div class="header-logo">ToDo List</div>
+  <div class="red-dot"></div>
+  <div class="subject">ToDo List</div>
+    <input class="section-input" type="text" name="New task" value="" placeholder="New Task">
     <button>Add</button>
   <div class="list">
-    <input type="checkbox" name="item1" value=""><span> First item</span><i class="material-icons">delete</i>
-      <br><hr>
-    <input type="checkbox" name="item2" value=""> <span> Second item</span><i class="material-icons">delete</i>
-  <br><hr>
-    <input type="checkbox" name="item3" value=""> <span>Third item</span><i class="material-icons">delete</i>
-    
+    <div class="list-item">
+      <input type="checkbox" name="item1" value=""><span> First item</span><i class="material-icons">delete</i>
+    </div>
+    <div class="list-item">
+      <input type="checkbox" name="item2" value=""><span> Second item</span><i class="material-icons">delete</i>
+    </div>
+    <div class="list-item">
+      <input type="checkbox" name="item3" value=""><span> Third item</span><i class="material-icons">delete</i>
+    </div>
   </div>
 </body>
 </html>
