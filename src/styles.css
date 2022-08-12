@@ -1,7 +1,19 @@
+<<<<<<< Updated upstream
 .header-logo {
   width: 100%;
   height: 50px;
   font-size: 1.5em;
+=======
+.container-main {
+  display: flex;
+  flex-direction:column;
+  height: 180px;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.box-Logo{
+>>>>>>> Stashed changes
   color: silver;
   background-color: black;
   line-height: 50px;
