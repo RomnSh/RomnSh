@@ -3,33 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>ToDo List</title>
-  <link rel="stylesheet" href="src/styles.css"
-</head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="src/styles.css">
+  </head>
 <body>
-  <p class="header"><span id="header">ToDo List</span></p><br><br>
-  <samp id=redpoint>.</samp>
-  <form action="" method="post">
-    <label ><b id="main">ToDo List</b></lable><br>
-<input id="text" type="text" name="New task" value="" placeholder="New Task">
-<button>Add</button>
-</form><br>
-<div>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<input type="checkbox" name="list" id="first">
-<label for="first">First item</label> <span class="material-symbols-outlined">
-delete
-</span>
-<br><hr color="silver">
-<input type="checkbox" name="list"id="second">
-<label for="second">Second item</label><span class="material-symbols-outlined">
-delete
-</span>
-<br><hr color="silver">
-<input type="checkbox" name="list"id="third">
-<label for="third">Third item</label><span class="material-symbols-outlined">
-delete
-</span>
-</div>
+  <div class="container-main">
+    <div class="box-Logo">ToDo List</div>
+    <div class="box-red-dot"></div>
+    <div class="box-subject">ToDo List</div>
+    <div class="box-input"> <input class="input-row"  type="text" name="New task" value="" placeholder="New Task">
+    <button class="box-button">Add</button></div>
+  </div>
+    <div class="container-list">
+      <div class="list-item">
+        <input type="checkbox" name="item1" value=""><span> First item</span><i class="material-icons">delete</i>
+      </div>
+      <div class="list-item">
+        <input type="checkbox" name="item2" value=""><span> Second item</span><i class="material-icons">delete</i>
+      </div>
+      <div class="list-item">
+        <input type="checkbox" name="item3" value=""><span> Third item</span><i class="material-icons">delete</i>
+      </div>
+    </div>
 </body>
 </html>
 <!--      тест    -->
