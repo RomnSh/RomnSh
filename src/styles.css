@@ -1,11 +1,9 @@
-
 .container-main {
   display: flex;
   flex-direction:column;
   height: 180px;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-
 }
 
 .box-Logo{
