@@ -3,25 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>ToDo List</title>
-  <link rel="stylesheet" href="src/styles.css"
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="src/styles.css">
   </head>
 <body>
-  <div class="header">ToDo List</div>
-  <div class="red_dot"></div>
-  <div class="main">ToDo List</div>
-  <input class="input_text" type="text" name="New task" value="" placeholder="New Task">
-  <button>Add</button>
-  <div class="list">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<input type="checkbox" name="item1" value=""><span> First item</span><span class="material-symbols-outlined">
-delete
-</span><br><hr>
-<input type="checkbox" name="item2" value=""> <span> Second item</span><span class="material-symbols-outlined">
-delete
-</span><br><hr>
-<input type="checkbox" name="item3" value=""> <span> Third item</span><span class="material-symbols-outlined">
-delete
-</span>
-</div>
+  <div class="container-main">
+    <div class="box-Logo">ToDo List</div>
+    <div class="box-red-dot"></div>
+    <div class="box-subject">ToDo List</div>
+  </div>
+  <div class="container-input">
+    <div class="field-input"> <input class="input-row"  type="text" name="New task" value="" placeholder="New Task">
+    <button class="box-button">Add</button>
+    </div>
+      <div class="container-list">
+        <div class="list-item">
+          <input type="checkbox" name="item1" value=""><span> First item</span><i class="material-icons">delete</i>
+        </div>
+        <div class="list-item">
+          <input type="checkbox" name="item2" value=""><span> Second item</span><i class="material-icons">delete</i>
+        </div>
+        <div class="list-item">
+          <input type="checkbox" name="item3" value=""><span> Third item</span><i class="material-icons">delete</i>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
