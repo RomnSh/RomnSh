@@ -1,78 +1,112 @@
-*{
-  margin: 0;
-  padding: 0;
+.container-main {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-evenly;
 }
 
-.header{
-  width: 100%;
-  height: 50px;
-  font-size: 1.5em;
+.box-Logo {
   color: silver;
   background-color: black;
-  line-height: 50px;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding-left: 20px
+  font-size: 1.5em;
+  padding: 10px 10px;
 }
-.red_dot{
+
+.box-red-dot {
+  flex-basis: 5px;
   width: 5px;
-  height: 5px;
-  border-radius: 5px;
   background-color: red;
-  position: absolute;
-  margin-left: 29%;
-  margin-top: 85px;
+  border-radius: 3px;
+  margin-left: 17%;
 }
-.main{
+
+.box-subject {
   font-size: 2em;
   font-weight: bold;
-  float: none;
-  margin-left: 25%;
-  margin-top:40px;
+  margin-left: 12%;
 }
-.input_text{
-  width: 40%;
-  height: 18px;
-  margin-left: 29%;
-  margin-top: 20px;
-  padding: 8px;
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 12%;
+  height: 250px;
+  padding: 10px;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .box-subject, .container-input,
+  .container-list, .field-inpu, .list-item {
+   justify-content: flex-start;
+   margin-left: 0;
+   width: 100%;
+  }
+}
+
+.field-input {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.input-row {
+  height: 28px;
+  width: 80%;
   border-color: silver;
   border-radius: 5px;
 }
-button{
-  height: 36px;
-  width: 60px;
-  margin-left: 20px;
+
+button {
   color: white;
   background-color: #237deb;
-  padding: 8px;
   border: 0;
   border-radius: 5px;
+  margin-left: 20px;
 }
-.list{
-  width: 50%;
-  height: 180px;
-  line-height: 60px;
-  margin-left: 25%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 20px;
+
+::placeholder {
+  padding: 5px;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
   border: 2px solid silver;
   border-radius: 5px;
-  padding-left: 20px;
 }
-.material-symbols-outlined {
+
+.list-item {
+  border-bottom: 2px solid silver;
+  padding: 10px;
+ }
+
+ @media (max-width: 600px) {
+   .container-input, .list-item {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+   }
+}
+
+.list-item:last-of-type {
+  border-bottom: none;
+}
+
+.material-icons {
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48;
-  color:red;
-  margin-right: 20px;
-  float: right;
-  margin-top: 12px;
+  color: red;
+  float:right;
 }
-input:checked+span {
+
+input:checked + span {
   text-decoration: line-through;
 }
