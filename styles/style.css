@@ -1,0 +1,116 @@
+.container {
+  padding: 50px 0px;
+}
+
+.product1{
+  background: url("https://i.ibb.co/L8Nrb7p/1.jpg");
+}
+
+.product2{
+  background: url("https://i.ibb.co/cLnZjnS/2.jpg");
+}
+
+.product3{
+  background: url("https://i.ibb.co/L8Nrb7p/1.jpg");
+}
+
+.product4{
+  background: url("https://i.ibb.co/cLnZjnS/2.jpg");
+}
+
+.product5{
+  background: url("https://i.ibb.co/cLnZjnS/2.jpg");
+}
+
+.product6{
+  background: url("https://i.ibb.co/L8Nrb7p/1.jpg");
+}
+
+.product7{
+  background: url("https://i.ibb.co/cLnZjnS/2.jpg");
+}
+
+.product8{
+  background: url("https://i.ibb.co/L8Nrb7p/1.jpg");
+  ba
+}
+
+.col-xl-3 .col-md-6 .col-sm-12 {
+  margin: 10px;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.product_img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.Product_name {
+  margin: 10px 0;
+}
+
+.product-icons {
+ position: absolute;
+ bottom: 3px;
+ padding: 6px;
+ display: none;
+}
+
+.bi {
+  font-size: 20px;
+  background-color: white;
+  padding: 2px 6px;
+  margin: 6px;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.new-price {
+  font-weight: bold;
+  margin: 0px 0px 20px 3px;
+}
+
+.discount {
+background-color: red;
+color: white;
+padding: 0px 3px;
+position: absolute;
+margin: 5px;
+}
+
+.collection{
+color: white;
+padding: 0px 3px;
+background-color: grey;
+position: absolute;
+margin: 5px 0px;
+}
+
+.product_img:hover .product-icons {
+  display: flex;
+}
+
+.bi:hover {
+  color: red;
+}
+
+.product_img:hover {
+  width: 105%;
+
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.product_img:hover {
+  transform: rotate(4deg);
+}
